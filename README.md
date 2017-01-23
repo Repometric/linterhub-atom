@@ -1,0 +1,3 @@
+# linterhub-atom package
+
+TODO
