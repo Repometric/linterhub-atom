@@ -9,16 +9,15 @@
   },
   "menu": [
     {
-      "label": "Packages",
+      "label": "Linterhub",
       "submenu": [
         {
-          "label": "Linterhub",
-          "submenu": [
-            {
-              "label": "Test",
-              "command": "linterhub-atom:test"
-            }
-          ]
+          "label": "Linters Manager",
+          "command": "linterhub-atom:manager"
+        },
+        {
+          "label": "Version",
+          "command": "linterhub-atom:version"
         }
       ]
     }
