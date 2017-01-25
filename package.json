@@ -21,5 +21,12 @@
     "process": "^0.11.9",
     "url": "^0.11.0",
     "yauzl": "^2.7.0"
+  },
+  "providedServices": {
+    "linter": {
+      "versions": {
+        "1.0.0": "provideLinter"
+      }
+    }
   }
 }
