@@ -1,12 +1,4 @@
 {
-  "context-menu": {
-    "atom-text-editor": [
-      {
-        "label": "Context test command",
-        "command": "linterhub-atom:test"
-      }
-    ]
-  },
   "menu": [
     {
       "label": "Linterhub",

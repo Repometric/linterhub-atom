@@ -1,5 +1,6 @@
 {
-  "atom-workspace": {
-    "ctrl-alt-q": "linterhub-brackets:test"
+  "atom-workspace" :
+  {
+    "escape": "linterhub-atom:hide"
   }
 }

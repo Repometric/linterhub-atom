@@ -1,7 +1,7 @@
 {
   "name": "linterhub-atom",
   "main": "./lib/linterhub-atom",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "description": "Linterhub extension for Atom",
   "keywords": [],
   "repository": "https://github.com/binore/linterhub-atom",
@@ -20,7 +20,8 @@
     "path": "^0.12.7",
     "process": "^0.11.9",
     "url": "^0.11.0",
-    "yauzl": "^2.7.0"
+    "yauzl": "^2.7.0",
+    "jquery": "^1.2.5"
   },
   "providedServices": {
     "linter": {
