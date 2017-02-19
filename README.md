@@ -8,4 +8,5 @@ Extension to integrate [Linterhub](https://github.com/Repometric/linterhub-cli) 
 
 ## How to develop
 * Install all dependencies for client and server part. Run `apm install` root directory.
+* Make your package available for Atom by running `apm link` root directory.
 * Run `atom . --dev`. It will open new instance of Atom with installed extension.
