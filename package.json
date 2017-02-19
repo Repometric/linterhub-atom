@@ -12,7 +12,7 @@
   "dependencies": {
     "fs": "0.0.1-security",
     "path": "^0.12.7",
-    "linterhub-ide": "^0.3.0",
+    "linterhub-ide": "^0.3.2",
     "sub-atom": "^1.1.0"
   },
   "providedServices": {
