@@ -12,8 +12,8 @@
   "dependencies": {
     "fs": "0.0.1-security",
     "path": "^0.12.7",
-    "linterhub-ide": "^0.3.2",
-    "sub-atom": "^1.1.0",
+    "linterhub-ide": "^0.3.7",
+    "dom-listener": "^0.1.2",
     "atom-linter": "^9.0.0",
     "atom-package-deps": "^4.4.1"
   },
