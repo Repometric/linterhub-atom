@@ -11,7 +11,7 @@ os:
 
 env:
   global:
-    - APM_TEST_PACKAGES=""
+    - APM_TEST_PACKAGES="linter language-ansible"
 
   matrix:
     - ATOM_CHANNEL=stable
