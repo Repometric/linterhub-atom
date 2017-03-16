@@ -5,27 +5,74 @@
 @import "ui-variables";
 
 .linterhub-atom {
+  position: relative;
+}
+.linterhub-atom-lm-linterSearch {
+  width: 100%;
+  margin-bottom: 5px;
+  background-color: #1b1d23;
+  color: #9da5b4;
+  border-radius: 3px;
+  padding: 3px 6px;
+  font-size: 11px;
+  font-weight: bold;
+  line-height: 3em;
+  height: 3em;
+  border: none;
+}
+input[type="search"].linterhub-atom-lm-linterSearch::-webkit-input-placeholder {
+  font-weight: 200;
+  font-style: italic;
+  color: rgba(255,255,255,.4);
+}
+.linterhub-atom-lm-linterContainer {
+  max-height: 70vh;
+  overflow-y: auto;
 }
 .linterhub-atom-lm-closeButton {
   position: absolute;
   right: 0;
   top: 0;
+  color: #d7dae0;
+  opacity: 1;
+  width: 1.5em !important;
+  height: 1.5em !important;
+  font-size: 1em !important;
+  border-radius: 3px;
+  text-align: center;
+  padding-top: 1.2px;
+  text-shadow: none;
+  transform: scale(0);
+  transition: transform .08s;
 }
-.linterhub-atom-lm-badge
-{
+.linterhub-atom:hover .icon::before {
+    margin: 0;
+}
+.linterhub-atom:hover .linterhub-atom-lm-closeButton {
+  transform: scale(1);
+}
+.linterhub-atom-lm-closeButton:hover {
+  opacity: 1;
+  background-color: #568af2;
+}
+.linterhub-atom-lm-badge {
   float: right;
   margin-left: 10px;
 }
-.linterhub-atom-lm-description
-{
+.linterhub-atom-lm-description {
 }
-.linterhub-atom-lm-checkbox
-{
+.linterhub-atom-lm-checkbox {
 }
-.linterhub-atom-lm-block
-{
+.linterhub-atom-lm-block {
+  background-color: rgba(0,0,0,.05);
+  padding: 10px;
+  border-radius: 5px;
+  margin: 5px;
+  margin-left: 0;
   display: block;
-  padding-top: 15px;
-  width: 100%;
+  width: 99.3%;
   font-size: 9pt;
+}
+.linterhub-atom-lm-block:nth-child(1) {
+  margin-top: 0px;
 }
