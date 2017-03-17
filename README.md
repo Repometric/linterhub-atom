@@ -1,5 +1,6 @@
 Linterhub Atom Extension
 =====
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/fbcbd01cbdcd446f94133456d1562b2a)](https://www.codacy.com/app/xferra/linterhub-atom?utm_source=github.com&utm_medium=referral&utm_content=Repometric/linterhub-atom&utm_campaign=badger)
 [![Build Status](https://travis-ci.org/Repometric/linterhub-atom.svg?branch=master)](https://travis-ci.org/Repometric/linterhub-atom)
 [![Build status](https://ci.appveyor.com/api/projects/status/gle7x82v832ntf13?svg=true)](https://ci.appveyor.com/project/xferra/linterhub-atom)
 [![Build status](https://circleci.com/gh/Repometric/linterhub-atom.svg?style=shield)](https://circleci.com/gh/Repometric/linterhub-atom)
