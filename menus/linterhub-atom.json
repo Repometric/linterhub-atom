@@ -1,15 +1,21 @@
 {
   "menu": [
     {
-      "label": "Linterhub",
-      "submenu": [
+      "label": "Packages",
+      "submenu" : [
         {
-          "label": "Linters Manager",
-          "command": "linterhub-atom:manager"
-        },
-        {
-          "label": "Version",
-          "command": "linterhub-atom:version"
+          "label": "Linterhub",
+          "submenu":
+            [
+            {
+              "label": "Linters Manager",
+              "command": "linterhub-atom:manager"
+            },
+            {
+              "label": "Version",
+              "command": "linterhub-atom:version"
+            }
+          ]
         }
       ]
     }
