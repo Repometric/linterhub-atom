@@ -8,6 +8,10 @@
           "submenu":
             [
             {
+              "label": "Analyze project",
+              "command": "linterhub-atom:analyze_project"
+            },
+            {
               "label": "Linters Manager",
               "command": "linterhub-atom:manager"
             },
