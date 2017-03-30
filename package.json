@@ -42,13 +42,13 @@
       "title": "Linterhub Mode",
       "description": "How to run linters",
       "type": "integer",
-      "default": null
+      "default": 0
     },
     "path_cli": {
       "title": "Path to cli",
       "description": "Absolute path to linterhub-cli",
       "type": "string",
-      "default": null
+      "default": "null"
     }
   }
 }
