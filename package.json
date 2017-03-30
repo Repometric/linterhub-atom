@@ -1,7 +1,7 @@
 {
   "name": "linterhub-atom",
   "main": "./lib/main",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Linterhub extension for Atom",
   "keywords": [],
   "repository": "https://github.com/binore/linterhub-atom",
@@ -15,11 +15,11 @@
     "linterhub-ide": "^0.4.3",
     "dom-listener": "^0.1.2",
     "atom-linter": "^9.0.0",
-    "atom-package-deps": "^4.4.1",
+    "atom-package-deps": "^4.5.0",
     "mustache": "^2.3.0"
   },
   "package-deps": [
-    "linter",
+    "linter:2.0.0",
     "language-ansible"
   ],
   "consumedServices": {
@@ -36,5 +36,19 @@
   },
   "devDependencies": {
     "babel-preset-es2015": "^6.22.0"
+  },
+  "configSchema": {
+    "mode": {
+      "title": "Linterhub Mode",
+      "description": "How to run linters",
+      "type": "integer",
+      "default": null
+    },
+    "path_cli": {
+      "title": "Path to cli",
+      "description": "Absolute path to linterhub-cli",
+      "type": "string",
+      "default": null
+    }
   }
 }
