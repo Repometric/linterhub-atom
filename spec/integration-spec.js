@@ -1,6 +1,6 @@
-/* eslint max-len: ["error", { "ignoreStrings": true }]*/
-
 'use babel';
+
+/* eslint max-len: ["error", { "ignoreStrings": true }]*/
 
 import * as sinon from 'sinon';
 import * as path from 'path';
