@@ -1,3 +1,5 @@
+/* eslint max-len: ["error", { "ignoreStrings": true }]*/
+
 'use babel';
 
 import * as sinon from 'sinon';
