@@ -149,14 +149,9 @@ describe('Integration class', () => {
 describe('StatusLogger class', () => {
     it('should change atom config', () => {
         let status = new StatusLogger();
-        status.update(null, true, 'Test');
+        status.update(null, true);
         expect(atom.config.get('linterhub-atom.progress')).toEqual(true);
-        expect(atom.config.get('linterhub-atom.status')).toEqual('Test');
-        status.update(null, false, 'Test2');
+        status.update(null, false);
         expect(atom.config.get('linterhub-atom.progress')).toEqual(false);
-        expect(atom.config.get('linterhub-atom.status')).toEqual('Test2');
-        status.update(null, null, 'Test3');
-        expect(atom.config.get('linterhub-atom.progress')).toEqual(true);
-        expect(atom.config.get('linterhub-atom.status')).toEqual('Test3');
     });
 });
