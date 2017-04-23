@@ -1,0 +1,21 @@
+<div id="linterhub-atom-lm-view" class="linterhub-atom" style="padding: 15px;">
+    <div class="linterhub-atom-lm-closeButton close icon icon-x"></div>
+    <h1 class="block" style="margin-bottom: 25px;">Linters Manager</h1>
+    <div class="native-key-bindings">
+        <input type="search" class="linterhub-atom-lm-linterSearch" placeholder="Start type linter name..." autofocus />
+    </div>
+    <div class="linterhub-atom-lm-linterContainer">
+        {{#linters}}
+        <label id="lint-{{name}}" class="linterhub-atom-lm-block input-label text-highlight">
+        {{#active}}
+        <input type="checkbox" class="linterhub-atom-lm-checkbox input-toggle" style="margin-right: 10px;" checked />
+        {{/active}}
+        {{^active}}
+        <input type="checkbox" class="linterhub-atom-lm-checkbox input-toggle" style="margin-right: 10px;" />
+        {{/active}}
+        {{name}}:
+        <span class="linterhub-atom-lm-badge badge">{{languages}}</span>
+        <span class="linterhub-atom-lm-description block text-subtle">{{description}}</span>
+      </label> {{/linters}}
+    </div>
+</div>

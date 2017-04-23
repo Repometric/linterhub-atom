@@ -1,0 +1,11 @@
+{
+  "linters": [
+    {
+      "name": "jshint",
+      "config": {},
+      "active": true,
+      "ignore": []
+    }
+  ],
+  "ignore": []
+}

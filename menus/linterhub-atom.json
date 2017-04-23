@@ -1,15 +1,25 @@
 {
   "menu": [
     {
-      "label": "Linterhub",
-      "submenu": [
+      "label": "Packages",
+      "submenu" : [
         {
-          "label": "Linters Manager",
-          "command": "linterhub-atom:manager"
-        },
-        {
-          "label": "Version",
-          "command": "linterhub-atom:version"
+          "label": "Linterhub",
+          "submenu":
+            [
+            {
+              "label": "Analyze project",
+              "command": "linterhub-atom:analyze_project"
+            },
+            {
+              "label": "Linters Manager",
+              "command": "linterhub-atom:manager"
+            },
+            {
+              "label": "Version",
+              "command": "linterhub-atom:version"
+            }
+          ]
         }
       ]
     }
